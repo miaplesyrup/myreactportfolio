@@ -87,6 +87,7 @@ function Signup() {
               Email Address:
             </label>
             <input
+            
               type="email"
               className="form-control"
               id="email"
