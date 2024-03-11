@@ -48,7 +48,7 @@ function Signup() {
     });
 
     try {
-      const response = await fetch('https://1398-158-62-54-40.ngrok-free.app/api/signup', {
+      const response = await fetch('http://localhost:8000/api/signup/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
